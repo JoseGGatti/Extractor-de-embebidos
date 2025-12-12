@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Extractor de archivos embebidos</title>
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="futuristic-bg">
+
+  <div class="container py-5">
+
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6">
+
+        <div class="card futuristic-card shadow-lg p-4">
+          <h2 class="text-center mb-3 futuristic-title">Extractor de archivos embebidos en Notificaciones Electrónicas Fehacientes(NEF)</h2>
+          <p class="text-center futuristic-subtitle">
+            Funciona 100% en tu navegador. Compatible con PDF y DOCX.
+          </p>
+
+          <div class="mb-3">
+            <label for="fileInput" class="form-label text-light">Seleccionar archivo</label>
+            <input type="file" class="form-control futuristic-input" id="fileInput">
+          </div>
+
+          <div id="output" class="alert alert-info mt-3 d-none futuristic-output"></div>
+          <div id="error" class="alert alert-danger mt-3 d-none futuristic-error"></div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer text-center py-3">
+    <p class="text-light m-0">© Todos los derechos reservados - José Gatti</p>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- JSZip -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+
+  <!-- PDF.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.10.377/pdf.min.js"></script>
+
+  <!-- Script lógico -->
+  <script src="script.js"></script>
+
+</body>
+</html>
