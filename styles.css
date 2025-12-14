@@ -51,12 +51,12 @@
 }
 
 .futuristic-output a {
-  color: #5dfcff;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .futuristic-error a {
-  color: #5dfcff;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -71,5 +71,6 @@
   backdrop-filter: blur(6px);
   border-top: 1px solid rgba(0,255,255,0.1);
 }
+
 
 
