@@ -55,6 +55,12 @@
   text-decoration: none;
 }
 
+.futuristic-error a {
+  color: #5dfcff;
+  text-decoration: none;
+}
+
+
 .futuristic-output a:hover {
   text-shadow: 0 0 10px cyan;
 }
@@ -65,4 +71,5 @@
   backdrop-filter: blur(6px);
   border-top: 1px solid rgba(0,255,255,0.1);
 }
+
 
